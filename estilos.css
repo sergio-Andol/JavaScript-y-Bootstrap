@@ -1,0 +1,27 @@
+/* Estilos para inputs y formulario */
+.form-control.custom-input {
+    border-color: #007bff; /* Color de borde */
+}
+
+.form-control.custom-input:focus {
+    border-color: #0056b3; /* Color del borde al hacer foco */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Footer fijo en la parte inferior */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
